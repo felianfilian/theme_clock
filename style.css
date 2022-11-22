@@ -3,6 +3,8 @@
 :root {
   --primary-color: #000;
   --secondary-color: #fff;
+  --clock-color: #f0f0f0;
+
   --red-color: #e74c3c;
 }
 
@@ -13,6 +15,7 @@ html {
 html.dark {
   --primary-color: #fff;
   --secondary-color: #333;
+  --clock-color: #333;
 }
 
 html.dark {
@@ -80,7 +83,7 @@ body {
 }
 
 .clock {
-  background-color: #f0f0f0;
+  background-color: var(--clock-color);
   height: 200px;
   position: relative;
   width: 200px;
